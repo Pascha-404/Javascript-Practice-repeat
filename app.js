@@ -8,6 +8,7 @@ function lastElement (argu){
     }
 }
 
-function capitalize(word){
-    
+function capitalize(input){
+let word = input;
+return word[0].toUpperCase() + word.slice(1);
 }
