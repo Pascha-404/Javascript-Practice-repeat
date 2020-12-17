@@ -14,6 +14,10 @@ function lastElement(element) {
         return null;
     }
     return element[element.length - 1]
+}
 
+function capitalize (input){
+let word = input;
 
+return word[0].toUpperCase() + word.slice(1);
 }
