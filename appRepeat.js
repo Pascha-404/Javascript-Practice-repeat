@@ -30,3 +30,10 @@ function sumArray(numb){
         
     }return total;
 }
+
+function returnDay(day){
+    if (day >= 1 && day <= 7){
+        const weekDays = ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'];
+        return weekDays[day -1];
+    } return null
+}
