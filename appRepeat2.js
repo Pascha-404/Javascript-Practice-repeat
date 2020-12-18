@@ -28,3 +28,7 @@ function sumArray(number){
         total += number[i];
     } return total
 }
+
+function multiply(y,x){
+    return y*x;
+}
