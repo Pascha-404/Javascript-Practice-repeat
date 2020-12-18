@@ -42,3 +42,11 @@ function lastElement(elem){
 const square = function (numb){
     return numb * numb;
 }
+
+function cleanNames(names) {
+    return names.map(function (str) {
+       
+        return str.trim();
+       
+    })
+}
