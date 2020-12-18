@@ -16,3 +16,9 @@ const hen = {
     }
 
 }
+
+const names = ['jason   ', 'sisiphos   ', 'join eltoon   ', '    capital bla']
+
+const namesFixed = names.map(function cleanNames(namesEdit) {
+    return namesEdit.trim()
+})
