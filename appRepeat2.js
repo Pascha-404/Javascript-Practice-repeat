@@ -32,3 +32,9 @@ function sumArray(number){
 function multiply(y,x){
     return y*x;
 }
+
+function lastElement(elem){
+    if (elem === 0){
+        return null;
+    } return elem[elem.length -1]
+}
