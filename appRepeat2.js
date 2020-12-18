@@ -38,3 +38,7 @@ function lastElement(elem){
         return null;
     } return elem[elem.length -1]
 }
+
+const square = function (numb){
+    return numb * numb;
+}
