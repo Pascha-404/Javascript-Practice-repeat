@@ -59,7 +59,7 @@ const oldestBuilding = buildings.reduce((oldest, nextBuilding) => {
 })
 
 // Doesent works, jet!!!!!!
-// const buildingNames = buildings.name.map((building) => {
+// const buildingNames = buildings['name'].map((building) => {
 //     return building.length})
 
 // const longestName = buildingNames.reduce((longest, nextName) => {
