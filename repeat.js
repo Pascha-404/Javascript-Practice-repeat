@@ -11,10 +11,19 @@ const validUserNames = user => user.filter(u => u.length < 10)
 const hen = {
     name: 'Helen',
     eggCount: 0,
-layAnEgg() {
-    this.eggCount++;
-    return 'EGG'
-}
+    layAnEgg() {
+        this.eggCount++;
+        return 'EGG'
+    }
 }
 
 // const layAnEgg = () => (hen.eggCount++, 'EGG')
+
+const isShortsWeather = t => {
+    if (t <= 75) {
+        return false;
+    }
+    return true;
+}
+
+const multiply = num => {return num*num}
